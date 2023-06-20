@@ -19,4 +19,3 @@ Usage
 •	Open the Jupyter notebook: Clustering-3K-PBMCs.ipynb
 •	Follow the code in the notebook to analyze the 3K PBMCs dataset.
 •	Modify the code or parameters as needed for your own analysis.
-![image](https://github.com/Shalinid8/RNA_Squence_Analysis/assets/104601001/2c6d9c64-8d75-4878-a396-339abc1c6ce9)
