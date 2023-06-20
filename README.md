@@ -1,25 +1,22 @@
-# RNA_Squence_Analysis
-Single-Cell-Gene-Expression-Scanpy
-This repository contains the code for analyzing single-cell gene expression data using Scanpy.
+Clustering 3K PBMCs Analysis
+This repository contains the code for clustering analysis of 3K PBMCs (Peripheral Blood Mononuclear Cells) using single-cell RNA sequencing data.
 
 Overview
-The project aims to perform a comprehensive analysis of single-cell RNA sequencing data using the Scanpy library. The code provided in the Jupyter notebook (Single-Cell-Gene-Expression-Scanpy.ipynb) performs various preprocessing steps, including filtering cells and genes, normalization, quality control, dimensionality reduction (PCA, t-SNE, UMAP), clustering (Louvain algorithm), and gene expression analysis. The analysis focuses on identifying differentially expressed genes across clusters and visualizing the results.
+The project focuses on performing clustering analysis on the 3K PBMCs dataset. The provided Jupyter notebook (Clustering-3K-PBMCs.ipynb) contains the code for preprocessing the data, performing dimensionality reduction (PCA, t-SNE, UMAP), and clustering the cells using the Louvain algorithm. The analysis aims to identify distinct cell populations and visualize their distribution in reduced-dimensional space.
 
 Dataset
-The analysis is conducted on the Ensemble DNA Soft Masked Primary Assembly dataset, which consists of single-cell RNA sequencing data. The dataset is obtained from the provided file paths (matrix.mtx, genes.tsv, barcodes.tsv.gz), and the necessary preprocessing steps are performed accordingly.
+The analysis utilizes the Clustering 3K PBMCs dataset, which consists of single-cell RNA sequencing data from peripheral blood mononuclear cells. The dataset is processed using the provided code to perform quality control, filtering, and normalization.
 
 Dependencies
-To run the code, the following dependencies need to be installed:
+To run the code, make sure to install the following dependencies:
 
-scanpy
-igraph
-louvain
-Please make sure to install these dependencies using the provided pip commands or the appropriate package manager.
+•	scanpy
+•	igraph
+•	louvain
 
 Usage
-
-Install the required dependencies: pip install scanpy igraph louvain
-Open the Jupyter notebook: Single-Cell-Gene-Expression-Scanpy.ipynb
-Follow the code in the notebook to analyze the single-cell gene expression data.
-Modify the code or parameters as needed for your own analysis.
-Note: The file paths in the code may need to be updated based on the location of the dataset files on your system.
+•	Install the required dependencies: pip install scanpy igraph louvain
+•	Open the Jupyter notebook: Clustering-3K-PBMCs.ipynb
+•	Follow the code in the notebook to analyze the 3K PBMCs dataset.
+•	Modify the code or parameters as needed for your own analysis.
+![image](https://github.com/Shalinid8/RNA_Squence_Analysis/assets/104601001/2c6d9c64-8d75-4878-a396-339abc1c6ce9)
